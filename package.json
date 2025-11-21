@@ -1,0 +1,17 @@
+{
+  "name": "heic-to-jpg-converter",
+  "version": "1.0.0",
+  "description": "將 HEIC 圖像轉換為 JPG 格式",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "keywords": ["heic", "jpg", "converter"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "heic-convert": "^1.2.4",
+    "fs-extra": "^11.2.0"
+  }
+}
+
